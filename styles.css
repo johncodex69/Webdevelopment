@@ -1,0 +1,28 @@
+body {
+    background-color: chocolate;
+}
+
+h1{
+    color:red;
+}
+
+body {
+    background-image: url(./images/Python-1.webp);
+    background-repeat: no-repeat;
+    background-position: right;
+    /* background-attachment:scroll; */
+}
+#paral {
+    border-style: solid;
+    border-color:blue;
+    color:red;
+    background-color:black;
+    border-radius: 20px;
+    border-top-style: dotted;
+}
+
+#param2 {
+    border-style: dashed;
+    color:brown;
+    border-width: 2px;
+}

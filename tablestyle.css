@@ -1,0 +1,12 @@
+th {
+    border-style: solid;
+}
+td {
+    border-style: solid;
+}
+h2 {
+    border-style: solid;
+    border-top-style: none;
+    border-left-style: none;
+    border-right-style: none;
+}
