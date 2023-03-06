@@ -1,0 +1,59 @@
+body {
+    background-color: gray;
+}
+
+div{
+    margin: auto;
+    text-align: center;
+    background-color:whitesmoke;
+    padding: 40px;
+    width: 900px;
+    height: 100%;
+}
+
+.title{
+    text-align: top;
+    font-size: 80px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    margin-bottom: 0%;
+}
+
+.credentials{
+    padding: 10px;
+    font-size: 20px;
+}
+
+#users-name-input{   
+    font-size: 19px;
+    margin-bottom: 3px;
+    border-radius: 100cm;
+    border: 2px solid black;
+}
+
+#email-input{   
+    font-size: 19px;
+    margin-bottom: 3px;
+    border-radius: 100cm;
+    border: 2px solid black;
+}
+
+#Subject-input{
+    font-size: 19px;
+    margin-bottom: 5px;
+    border-radius: 100cm;
+    border: 2px solid black;
+}
+
+#message-input{
+    font-size: 19px;
+    margin-right: 1%;
+    padding-right: 20%;
+    padding-bottom: 5%;
+}
+
+#Send-button{
+    background-color: green;
+    font-size: 24px;
+    border: 2px solid black;
+}
