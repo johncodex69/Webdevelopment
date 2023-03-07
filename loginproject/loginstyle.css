@@ -34,3 +34,14 @@ div{
 #sign-in-button{
     margin-top: 30px;
 }
+
+p{
+    font-size: 13px;
+}
+
+.statement{
+    border: none;
+    background-color: gold;
+    color: blue;
+    padding-left: 0%;
+}
