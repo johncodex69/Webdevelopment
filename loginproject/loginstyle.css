@@ -27,12 +27,12 @@ div{
 }
 
 #password-input{
-    margin-bottom: 20px;
+    margin-bottom: 2px;
     font-size: 19px;
 }
 
 #sign-in-button{
-    margin-top: 30px;
+    padding-top: 30px;
 }
 
 p{
@@ -44,4 +44,5 @@ p{
     background-color: gold;
     color: blue;
     padding-left: 0%;
+    padding-bottom: 10px;
 }
