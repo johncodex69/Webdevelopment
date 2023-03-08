@@ -1,0 +1,123 @@
+body{
+    background-color:white;
+}
+
+.sidebar{
+    background-color:darkolivegreen;
+    color: white;
+    width:230px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    bottom: 30px;
+    padding-top: 0px;
+    padding-bottom: 20px;
+}
+
+.sidebar ul{
+    list-style: none;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+li{
+    margin-top: 1%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    padding: 5px 16px;
+    margin-bottom: 15px;
+}
+
+nav{
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: 30px;
+}
+
+a:hover{
+    background-color:blue;
+    color:black
+}
+
+.rounded-image{
+    background-color: white;
+    padding: 40px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: none;
+    padding-left: 40px;
+    margin-left: 20%;
+    margin-top: 120%;
+}
+
+.my-name{
+    font-size: 50px;
+    padding: 40px;
+    font-weight: bold;
+}
+
+.introduction{
+    margin-left: 250PX;
+}
+
+.main-content{
+    margin-left: 250px;
+}
+
+.introduction-text{
+    font-size: 20px;
+}
+
+.contact-me{
+    border: none; 
+    color: black;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.contact-me a{
+    border: none;
+    border-radius: 0px;
+    padding: 8px;
+    text-decoration: underline;
+    color:blue;
+    background-color: white;
+}
+
+.contact-me a:hover{
+    background-color: white;
+    color: green;
+    transition : 200 ms  ease-in-out;
+}
+
+.read-more{
+    padding: 10px;
+    
+}
+
+.read-more a{
+    color: darkmagenta;
+    background-color: black;
+    font-weight: normal;
+    padding: 8px;
+    font-size: 17px;
+    border: none;
+}
+
+.read-more a:hover{
+background-color: white;
+color: darkmagenta;
+transition: 200ms ease-in-out;
+}
+
+.work text {
+    margin-left: 60px;
+}
