@@ -1,6 +1,10 @@
 body{
-    background-color:white;
-}
+    background-image: url('white-trianglify.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+      }
+
 
 .sidebar{
     background-color:darkolivegreen;
@@ -42,7 +46,8 @@ a{
 
 a:hover{
     background-color:blue;
-    color:black
+    color:black;
+    padding: 2px 5px;
 }
 
 .rounded-image{
