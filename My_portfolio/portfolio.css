@@ -2,24 +2,42 @@ body,html {
     height: 100%
 }
 
-div{
-    margin: auto;
-    text-align: center;
+/* Header */
+header {
+  background: #686368;
+  z-index: 997;
+  transition: all 0.5s;
+  height: 70px;
+}
+#header.header-scrolled {
+  height: 60px;
+  background: rgba(25, 28, 31, 0.8);
 }
 
-/* Navigation bar */
-.Navbar{
-    display: flex;
-    align-items: top;
-    justify-content: space-between;
-    padding: 15px 410px;
-    color: #fff;
-    transition: 0.3s;
-    font-size: 13px;
-    font-family: Lato, sans-serif;
-    font-weight: 700;
-    letter-spacing: 1px;
-    height: 32px;
+/*# Navigation menu */
+/* Desktop navigation */
+.navbar {
+  padding: 0;
+}
+.navbar ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+.navbar li {
+  position: relative;
+  padding: 10px 0 10px 28px;
+}
+.navbar a,
+.navbar a:focus {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Raleway", sans-serif;
+  font-size: 17px;
+  font-weight: 600;
 }
 /* End Navigation bar */
 
