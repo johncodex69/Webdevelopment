@@ -5,14 +5,14 @@ body,html {
 
 /* Header */
 header {
-  background: #686368;
+  background: #3b3a3b;
   z-index: 1;
   transition: all 0.5s;
   height: 70px;
 }
 #header.header-scrolled {
   height: 60px;
-  background: rgba(25, 28, 31, 0.8);
+  background: rgba(77, 77, 78, 0.8);
 }
 
 /*# Navigation menu */
@@ -57,7 +57,7 @@ header {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a  {
-  color: #ffb727;
+  color: gold;
   text-decoration: none;
 }
 /* End Navigation bar */
